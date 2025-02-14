@@ -57,52 +57,52 @@ with st.container():
         with text_col:
             st.html("<h5>Hmmmm</h5>") 
 
-# --- CHATBOT DESCRIPTION ---
-with st.container():
+# # --- CHATBOT DESCRIPTION ---
+# with st.container():
     
-    st.write("---")
-    left_column, right_column = st.columns((1,2), vertical_alignment="center")
-    with left_column:
-        st_lottie(lottie_animation_chatbot, height=300, key="chatbot-animation")        
-    with right_column:
-        st.header("Let't try to detect!")
-        st.html("<p>Hmmmmmm</p>")
-        st.switch_page("views/detect.py")
+#     st.write("---")
+#     left_column, right_column = st.columns((1,2), vertical_alignment="center")
+#     with left_column:
+#         st_lottie(lottie_animation_chatbot, height=300, key="chatbot-animation")        
+#     with right_column:
+#         st.header("Let't try to detect!")
+#         st.html("<p>Hmmmmmm</p>")
+#         st.switch_page("views/detect.py")
 
-        # Styling for buttons side by side using flexbox
-        st.markdown(
-            '''
-            <style>
-                .button-container {
-                    display: flex;
-                    gap: 20px;  /* Adds space between buttons */
-                }
-                .hover-link {
-                    background-color: #0e1117;
-                    color: white;
-                    padding: 10px 20px;
-                    border: none;
-                    border-radius: 5px;
-                    outline: 1px solid #41444c;
-                    text-decoration: none;
-                    transition: background-color 0.3s ease, transform 0.3s ease;
-                }
-                .hover-link:hover {
-                    background-color: #333;
-                    transform: scale(1.05);
-                }
-            </style>
-            <div class="button-container">
-                <a class="hover-link" href="https://nutricare-1000-by-nutriteam.streamlit.app/informasi" target="_blank">
-                    Baca Informasi
-                </a>
-                <a class="hover-link" href="https://nutricare-1000-by-nutriteam.streamlit.app/chatbot" target="_blank">
-                    Tanya Chatbot
-                </a>
-            </div>
-            ''',
-            unsafe_allow_html=True
-        )
+#         # Styling for buttons side by side using flexbox
+#         st.markdown(
+#             '''
+#             <style>
+#                 .button-container {
+#                     display: flex;
+#                     gap: 20px;  /* Adds space between buttons */
+#                 }
+#                 .hover-link {
+#                     background-color: #0e1117;
+#                     color: white;
+#                     padding: 10px 20px;
+#                     border: none;
+#                     border-radius: 5px;
+#                     outline: 1px solid #41444c;
+#                     text-decoration: none;
+#                     transition: background-color 0.3s ease, transform 0.3s ease;
+#                 }
+#                 .hover-link:hover {
+#                     background-color: #333;
+#                     transform: scale(1.05);
+#                 }
+#             </style>
+#             <div class="button-container">
+#                 <a class="hover-link" href="https://nutricare-1000-by-nutriteam.streamlit.app/informasi" target="_blank">
+#                     Baca Informasi
+#                 </a>
+#                 <a class="hover-link" href="https://nutricare-1000-by-nutriteam.streamlit.app/chatbot" target="_blank">
+#                     Tanya Chatbot
+#                 </a>
+#             </div>
+#             ''',
+#             unsafe_allow_html=True
+#         )
 
 
         
