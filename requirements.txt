@@ -1,0 +1,15 @@
+streamlit
+streamlit-lottie
+requests
+plotly
+wordcloud
+folium
+streamlit_folium
+openpyxl
+scikit-learn
+python-docx
+python-dotenv
+openai
+huggingface_hub
+transformers
+ultralytics
