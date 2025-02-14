@@ -13,3 +13,4 @@ openai
 huggingface_hub
 transformers
 ultralytics
+OpenGL
