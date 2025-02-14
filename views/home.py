@@ -28,7 +28,7 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.title("FLOODIFY")
-        st.subheader("Transform flood images into life-saving insights")
+        st.subheader("Floodify uses advanced AI to analyze flood images, generating precise captions and detecting individuals by category (male, female, child) to support smarter disaster response.")
     with right_column:
         st.image(logo,width=300)
 
@@ -42,20 +42,20 @@ with st.container():
         with img_col:
             st_lottie(img_fitur1)
         with text_col:
-            st.html("<h5>Hmmmm</h5>")
+            st.html("<h5>AI-Powered Precision</h5>")
     with c2:
         img_col, text_col = st.columns((1,2), vertical_alignment="center")
         with img_col:
             st_lottie(img_fitur1)
         with text_col:
-            st.html("<h5>Hmmmm</h5>")
+            st.html("<h5>Real-Time Insights</h5>")
     with c3:
         img_col, text_col = st.columns((1,2), vertical_alignment="center")
         with img_col:
             # st.image(img_fitur3)
             st_lottie(img_fitur1)
         with text_col:
-            st.html("<h5>Hmmmm</h5>") 
+            st.html("<h5>Data-Driven Decisions</h5>") 
 
 # # --- CHATBOT DESCRIPTION ---
 # with st.container():
