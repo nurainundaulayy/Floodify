@@ -30,7 +30,7 @@ informasi_page = st.Page(
 )
 
 # --- NAVIGATION SETUP ---
-pg = st.navigation(pages=[home_page, detect_page, informasi_page, chatbot_page, dashboard_page], expanded=False)
+pg = st.navigation(pages=[home_page, detect_page], expanded=False)
 
 # --- RUN NAVIGATION ---
 pg.run()
