@@ -7,10 +7,12 @@ import torch
 from transformers import PaliGemmaForConditionalGeneration, PaliGemmaProcessor
 import glob
 import os
+from huggingface_hub import login
 
 # Config
 page_icon = Image.open("images/icon.png")
 st.set_page_config(layout="centered", page_title="Floodify - Detect & Caption", page_icon=page_icon)
+login(token="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")
 
 # Initial State
 def initial_state():
