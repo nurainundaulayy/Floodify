@@ -13,4 +13,4 @@ openai
 huggingface_hub
 transformers
 ultralytics
-PyOpenGL
+opencv-python-headless
